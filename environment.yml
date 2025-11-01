@@ -1,0 +1,13 @@
+name: media-tools
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.10
+  - yt-dlp
+  - ffmpeg-python
+  - pyyaml
+  - watchdog
+prefix: /opt/anaconda3/envs/media-tools

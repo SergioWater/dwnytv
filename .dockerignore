@@ -1,0 +1,11 @@
+# Ignore the entire downloads folder
+trades_by_sci_downloads/
+
+# Ignore any other mp4 files
+*.mp4
+
+# --- Good things to always ignore ---
+__pycache__/
+.git/
+.vscode/
+*.pyc
